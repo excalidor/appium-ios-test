@@ -37,7 +37,6 @@ public class BaseIOSTest {
         driver.navigate().back();
         driver.findElementByName("Alert Views").click();
         driver.findElementByName("Simple").click();
-        System.out.println(driver.getPageSource());
         driver.findElementByName("OK").click();
         driver.findElementByName("Okay / Cancel").click();
         driver.findElementByName("OK").click();
@@ -47,6 +46,16 @@ public class BaseIOSTest {
         driver.findElementByName("Date Picker").click();
         driver.navigate().back();
         driver.findElementByName("Image View").click();
-
+        driver.navigate().back();
+        driver.findElementByName("Page Control").click();
+        driver.navigate().back();
+        driver.findElementByName("Picker View").click();
+        driver.navigate().back();
+        driver.findElementByName("Progress Views").click();
+        driver.navigate().back();
+        driver.findElementByName("Segmented Controls").click();
+        driver.navigate().back();
+        driver.findElementByName("Sliders").click();
+        driver.navigate().back();
     }
 }
